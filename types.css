@@ -9,7 +9,7 @@
   --bg-color: #021024;
   --container-color: #052659;
   --text-color: #dee1e6;
-  --hover-color: #733c7a;
+  --hover-color: #8F0B13;
   --button-color: #681304;
 }
 
@@ -76,42 +76,88 @@ span {
 
 h1 {
   color: var(--text-color);
-  margin-top: 130px;
+  margin-top: 150px;
   text-align: center;
 }
 
 .upper-ni {
-  margin-top: -110px;
+  margin-top: -125px;
+  margin-left: 130px;
 }
 
 .mid-ni {
-  margin-top: -740px;
+  margin-top: -570px;
+  margin-left: 100px;
+}
+
+.types{
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 1100px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  height: 700px;
+  margin-top: 30px;
+  margin-left: 410px;
 }
 
 .upper img {
   margin-left: 50px;
-  padding-top: -150px;
-  margin-bottom: 20px;
-  width: 250px;
+  margin-bottom: 30px;
+  width: 240px;
 }
 
 .mid img {
-  margin-left: 550px;
-  padding-bottom: -150px;
-  margin-bottom: -50px;
-  width: 250px;
+  margin-left: 560px;
+  margin-bottom: 135px;
+  padding-top: -20px;
+  margin-top: -150px;
+  width: 235px;
 }
 
-.name {
-  margin-left: 70px;
-  color: white;
-  font-size: 1.5rem;
-  margin-top: -50px;
+.upper-ni .btn {
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  background-color: var(--button-color);
+  border: 2px solid var(--text-color);
+  border-radius: 10px;
+  color: rgb(253, 246, 246);
+  font-size: 15.5px;
+  margin-top: -60px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  cursor: pointer;
 }
 
-.name2 {
-  margin-left: 570px;
-  color: white;
-  font-size: 1.5rem;
-  margin-top: 10px;
+.upper-ni .btn a {
+  text-decoration: none;
+  color: var(--white-color);
+  padding-top: 50px;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+}
+
+
+.mid-ni .btn {
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  background-color: var(--button-color);
+  border: 2px solid var(--text-color);
+  border-radius: 10px;
+  color: rgb(253, 246, 246);
+  font-size: 15.5px;
+  margin-top: -140px;
+  margin-left: 600px;
+  cursor: pointer;
+}
+
+.mid-ni .btn a {
+  text-decoration: none;
+  color: var(--white-color);
+  padding-top: 50px;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
 }
